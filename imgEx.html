@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <title>imgEx1</title>
 </head>
 <body>
-    <img src="./images/logo.gif" alt="로고사진">
+    <!--<img src="./images/logo.gif" alt="로고사진">
     <figure>
         <img src="./images/chocolate-islands.jpg" alt="단하고 맛있는 퍼지 초콜릿 케이크 입니다.">
-        <figcaption>간단하고 맛있는 퍼지 초콜릿 케이크 입니다.</figcaption> <!--해당 이미지에 따라다니는 캡션(설명)-->
+        <figcaption>간단하고 맛있는 퍼지 초콜릿 케이크 입니다.</figcaption> (해당 이미지에 따라다니는 캡션(설명)
     </figure>
     <h1>상세 요리법</h1>
     <img src="./images/lemon-posset.jpg" alt="lemon-posset 2그릇이 놓여있는 사진">
     <img src="./images/roasted-brussel-sprouts.jpg" alt="roasted-brussel-sprouts 사진">
-    <img src="./images/zucchini-cake.jpg" alt="ucchini-cake 사진">
+    <img src="./images/zucchini-cake.jpg" alt="ucchini-cake 사진">-->
 
+    <h1><a href="./imgEx1"><img src="./images/logo.gif" alt="로고사진"></a></h1>
+    <!--p안에 이미지를 넣어도 되고 다른 태그안에 넣어도 됨.-->
+    <figure>
+    <img src="./images/chocolate-islands.jpg" alt="단하고 맛있는 퍼지 초콜릿 케이크 입니다."> <!--figcaption안에 설명하면 alt 생략해도 됨-->
+    <figcaption>간단하고 맛있는 퍼지 초콜릿 케이크 입니다.</figcaption> <!--해당 이미지에 따라다니는 캡션(설명)-->
+     </figure>
+    <h2>상세 요리법</h2>
+    <!--p안에 글자만 넣을 수 있는건 아님, 이미지 등 다양한 컨텐츠 넣을 수 있음-->
+    
+    <p>
+    <img src="./images/lemon-posset.jpg" alt="lemon-posset 2그릇이 놓여있는 사진"><img src="./images/roasted-brussel-sprouts.jpg" alt="roasted-brussel-sprouts 사진"><img src="./images/zucchini-cake.jpg" alt="ucchini-cake 사진"> 
+    </p> 
+    </body>
+    </html>
+ 
+    <!--인라인 요소는 띄어쓰기와 행간, 수직 정렬의 값을 가짐
+    코드창에서 여러번 띄어쓰기나 줄바꿈은 브라우저에서 한 칸 띄어쓰기로 인식.
+    -->
 </body>
 </html>
